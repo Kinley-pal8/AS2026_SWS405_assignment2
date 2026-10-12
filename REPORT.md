@@ -5,8 +5,8 @@
 
 |  |  |
 |---|---|
-| **Student Name** | [Your Name] |
-| **Student Number** | [Your Student No.] |
+| **Student Name** | [Kinley Palden] |
+| **Student Number** | [02230287] |
 | **Module Tutor** | Pema Thinley |
 | **Semester** | Autumn Semester 2026 |
 | **Submission Date** | 12 October 2026 |
