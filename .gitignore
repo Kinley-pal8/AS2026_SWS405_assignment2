@@ -1,0 +1,24 @@
+# Memory images (1 GB each; symlinks to ~/memlabs on this machine)
+*.raw
+*.7z
+
+# Process memory dump (254 MB - over GitHub's 100 MB limit, regenerable with memdump -p 2424)
+*.dmp
+
+# Raw dumpfiles outputs (renamed copies are kept next to them)
+memlabs/**/file.None.*.dat
+
+# Duplicates / scratch
+memlabs/Lab4/mft.txt
+memlabs/Lab1/dump/g819.png
+memlabs/Lab2/dump/Hidden_fixed.kdbx
+
+# Local tool settings
+.claude/
+
+# Not part of the submission
+instructions.md
+SCREENSHOT_GUIDE.md
+build_report.sh
+*.docx
+*.pdf

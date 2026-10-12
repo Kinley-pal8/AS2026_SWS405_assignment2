@@ -1,0 +1,4 @@
+FROM debian:bookworm
+RUN sed -i 's/Components: main/Components: main contrib non-free/' /etc/apt/sources.list.d/debian.sources && apt-get update && \
+    DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends megatools steghide unrar p7zip-full binutils sqlite3 file xxd python3 ca-certificates libimage-exiftool-perl && rm -rf /var/lib/apt/lists/*
+WORKDIR /memlabs
